@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+
+    <div class="map-window">
+
+        <div class="map-textbar">
+           <center><img src="logo.png" alt=""></center>
+
+
+           <div class="textbar-workouts">
+
+  
+             <form action="" class="textbar-form hidden">
+               <div class="form-type">
+                <label for="">Type</label>
+                <select name="" id="" class="form-select">
+                    <option value="Running">Running</option>
+                    <option value="Cycling">Cycling</option>
+                </select>
+               </div>
+               <div class="form-distance ">
+                <label for="">Distance</label>
+                <input type="text" class="distance-input">
+               </div>
+               <div class="form-duration">
+                <label for="">Duration</label>
+                <input type="text" class="duration-input">
+               </div>
+               <div class="form-cadence ">
+                <label for="">Cadence</label>
+                <input type="text" class="cadence-input">
+               </div>
+               <div class="form-elevgain c-hidden">
+                <label for="">Elev Gain</label>
+                <input type="text" class="elevgain-input">
+               </div>
+               <button class="form-button c-hidden">ok</button>
+             </form>
+
+
+
+             <!--<li class="textbar-Running workoutrc">
+                <p class="Running-label">Running on April 14</p>
+                <div class="Running-metric">
+                    <p class="">
+                        <span class="Running-icon1">🏃‍♂️</span>
+                        <span class="Running-dis">5.2</span>
+                        <span>KM</span>
+                    </p>
+                    <p>⏱
+                        <span class="Running-dur">5.2</span> 
+                        MIN</p>
+                    <p>⚡️
+                       <span class="Running-cad">5.2</span>  
+                       <span>MIN/KM</span></p>
+                    <p>
+                        <span class="Running-icon2">🦶🏼</span>
+                        <span class="Running-pace">5.2</span>
+                        <span>SPM</span>
+                    </p>
+                </div>
+             </li>
+
+             <li class="textbar-Cycling workoutrc">
+                <p class="Cycling-label">Cycling on April 5</p>
+                <div class="Cycling-metric">
+                    <p>
+                        <span class="Cycling-icon1">🚴‍♀️</span>
+                        <span class="Cycling-dis">5.2</span>
+                        <span>KM</span>
+                    </p>
+                
+                <p>⏱<span class="Cycling-dur">5.2</span>MIN</p>
+                <p>⚡️<span class="Cycling-elev">5.2</span><span>KM/H</span></p>
+                <p>
+                    <span class="Cycling-icon2">⛰</span>
+                    <span class="Cycling-speed">5.2</span>
+                    <span>M</span>
+                </p>
+                </div>
+            </li>-->
+
+
+           </div>
+
+           <div class="textbar-footer">
+            <p>© Copyright by Jonas Schmedtmann. Use for learning or your <br>portfolio. Don't use to teach. Don't claim as your own.</p>
+           </div>
+
+
+        </div>
+
+        <div id="map">
+
+        </div>
+
+    </div>
+
+</body>
+</html>
